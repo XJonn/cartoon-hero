@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+	.caption{
+		text-decoration-color: lightgrey;
+		font-size: 20px;
+		font-style: italic;
+	}
+
+/* These classes are background colors for individual text parts */
+	.green-section{
+		background-color: #8effc6;
+	}
+
+	.crimson-section{
+		background-color: #95210dbf;
+	}
+
+	.gold-section{
+		background-color: #e8a237;
+	}
+
+</style>
+
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Moana</title>
 	<link rel="icon" href="img/moana-avatar.jpg" />
+	<link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/Moana.css">
 </head>
+
 <body>
 <!-- Header Element (Avatar Picture, and Main Header Text) -->
 	<header>
@@ -14,10 +40,14 @@
 	
 	<main>
 		<!-- About Moana -->
+		<!-- Class is used to turn the background sea green -->
+	<div class=green-section>
 		<h2>About Moana</h2>
 		<p>Moana is a girl who longs to see whats beyond the barrier reef of her island. As the daughter to the village's chief, her father wants to become the village's next leader. Moana, being more focused to whats beyond where she lives, goes on this wild adventure to save her and her entire village.</p>
+	</div>
 
 <!-- Ordered List -->
+	<div class=crimson-section>
 		<h2>Moana's Characteristics</h2>
 		<ol>
 			<li>She's a voyager at heart</li>
@@ -25,12 +55,17 @@
 			<li>She goes on an amazing journey</li>
 			<li>She loves the ocean</li>
 		</ol>
+	</div>
 
 <!-- Friends photo with caption -->
 		<img src="img/moana-friends.jpg">
-		<p>The entire squad</p>
+		
+	<div class=caption>
+		<p style="margin-top: 0px; font-size: 16px;">The entire squad</p>
+	</div>
 
 <!-- Unordered List -->
+	<div class="gold-section">
 		<h2>About Moana's Friends</h2>
 		<p>Moana has some nice friends that help her through her journey. Click the links below to learn more about her friends:</p>
 		<ul>
@@ -38,7 +73,7 @@
 			<li><a target ="_blank" href="https://disney.fandom.com/wiki/Pua_(Moana)">Pua the Pig</a></li>
 			<li><a target ="_blank" href="https://disney.fandom.com/wiki/Heihei">Hei Hei the Chicken</a></li>
 		</ul>
-
+	</div>
 
 	</main>
 
