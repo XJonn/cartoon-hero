@@ -35,6 +35,7 @@ main{
 	max-width: 800px;
 /*margin: Top and Botton, left and right. The "auto" centers text */
 	margin: 0 auto;
+/*tjos padding makes things scale*/
 	padding: 0 30px;
 }
 
